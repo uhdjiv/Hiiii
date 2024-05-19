@@ -1,0 +1,86 @@
+​/* * - універсальний селектор - дозволяє обрати всі елементи на сторінці -  */
+* {
+    /* Зовнішній відступ або відступ від обʼєкту */
+    margin: 0;
+    /* Внутрішній відступ */
+    padding: 0;
+    /* кордони */
+    border: 0;
+    /* box-sizing - розраховує поведінку елемента  -  border-box(Обовʼязково)*/
+    box-sizing: border-box;
+  }
+  
+  a {
+    /*  text-decoration:none - дозволяє прибрати підкреслювання */
+    text-decoration: none;
+  }
+  
+  ul,
+  ol {
+    /* декоративне маркування буде прибрано */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+.container{
+    width: 936px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+ul{
+    list-style: none;
+}
+.hallo{
+    display: flex;
+    justify-content: center;
+    /* gap: 100px; */
+}
+.hallo-item{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #7D7D7D;
+    margin-right: 99px;
+}
+
+.images{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+/* gap: 65px; */
+/* margin-top: 92px;
+margin-left: 148px;
+margin-right: 147px;
+margin-bottom: 62px; 
+*/
+
+}
+.images-item{
+    width: 420px;
+}
+.images-item:nth-child(odd){
+    width: 420px;
+    margin-right: 60px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button {
+    width: 165px;
+    height: 60px;
+    border: 1px solid #626262;
+    cursor: pointer;
+  }
+  .button{
+    padding-bottom: 66px;
+  }
+  .header{
+    padding-bottom: 92px;
+    padding-top: 71px;
+  }
